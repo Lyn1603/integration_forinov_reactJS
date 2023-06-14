@@ -77,13 +77,30 @@
 .Card .bgprofile .about .dots  {
     display: flex;
     flex-direction: row;
+    margin-left: 40vw;
+    margin-top: 15px;
     gap: 4px;
 }
 
 .Card .bgprofile .about .dot  {
-  position: relative;
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+
+.Card .bgprofile .contact {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 40%;
+  left: 20%;
+
+}
+
+.Card .bgprofile .contact .map {
+    width: 10px;
+    height: 16px;
+
 }
