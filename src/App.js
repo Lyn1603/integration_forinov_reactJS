@@ -7,7 +7,8 @@ import facebook from './assets/facebook.png';
 import linkedin from './assets/linkedin.png';
 import twitter from './assets/twitter.png';
 import combineshape from './assets/combinedShape.png';
-import LocalMap from './assets/map-localisation-copy.png'
+import LocalMap from './assets/map-localisation-copy.png';
+import ProgressionBar from './components/progressionBar.js';
 
 
 function App() {
@@ -90,17 +91,44 @@ function App() {
         <div className="button">
 
         <button className="button2">
-                    <span style={{ color:"#006dff"}}>Ressources Humaines</span>
+            <span style={{ color:"#006dff"}}>Ressources Humaines</span>
         </button>
 
-          <div>
-          <button className="button3">
+          <div className='buttons'>
+
+          <div >
+
+              <button className="button3">
                     <span style={{ color:"#006dff"}}>Software</span>
-          </button>
-          <button className="button4">
+              </button>
+
+              <button className="button4">
                     <span style={{ color:"#006dff"}}>HR</span>
-          </button>
+              </button>
+
           </div>
+          
+          <div >
+              <button className="button1">
+                    <span style={{ color:"#fff"}}>SUIVRE</span>
+              </button>
+          
+              <button className="button5">
+                    <span style={{ color:"#006dff"}}>PROFIL PUBLIC</span>
+              </button>
+
+          </div>
+
+          </div>
+
+
+          <div className="line"></div>
+
+          <ProgressionBar />
+
+
+
+
         </div>
 
 

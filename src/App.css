@@ -178,8 +178,8 @@
 
   position: relative;
   background-color: #fff;
-  width: 187px;
-  height: 32px;
+  width: 180px;
+  height: 70px;
   font-size: 16px;
   border-radius: 5px;
   bottom: 15%;
@@ -202,10 +202,88 @@
 
   position: relative;
   background-color: #fff;
-  width: 28px;
+  width: 33px;
   height: 24px;
   font-size: 14px;
   border-radius: 5px;
   bottom: 15%;
+
+}
+
+.Card .bgprofile .button .button5 {
+
+  position: relative;
+  background-color: #fff;
+  width: 156px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 20px;
+  bottom: 15%;
+
+}
+
+.Card .bgprofile .button .buttons {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
+  width: 47vw;
+  height: 80px;
+  position: relative;
+  bottom: 20%;
+  letter-spacing: 0.1px;
+
+}
+
+.Card .bgprofile .line {
+
+  width: 700px;
+  height: 1px;
+  margin: 35px 2px 16px;
+  border: solid 1px #e7e7e7;
+  position: relative;
+  bottom: 40%;
+
+}
+
+.Card .bgprofile .progressionBar{
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+  bottom: 40%;
+
+}
+
+.Card .bgprofile .progressionBar .progression{
+  margin-top: 2%;
+  width: 47vw;
+  height: 8px;
+  border-radius: 16px;
+  background-color: #006dff;
+
+}
+
+.Card .bgprofile .progressionBar .progression .points{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 14%;
+  align-items: center;
+  bottom: 35%;
+  
+  
+
+}
+
+.Card .bgprofile .progressionBar .progression .points .point{
+  width: 16px;
+  height: 16px;
+  border: solid 2px #006dff;
+  background-color: #fff;
+  border-radius: 50%;
 
 }
