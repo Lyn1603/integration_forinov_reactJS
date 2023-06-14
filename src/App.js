@@ -15,6 +15,8 @@ function App() {
   return (
     <Fragment>
 
+      <h1 className='title'> Mon integration </h1>
+
       <div className="Card">
 
         <div className="bgphoto">

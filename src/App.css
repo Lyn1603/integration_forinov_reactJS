@@ -1,3 +1,16 @@
+.Card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+.title{
+  text-align: center;
+}
+
 .Card .bgphoto {
   background-image: url("https://dev.forinov.fr/pictures/incubateur/3/crop_image.jpg");
   background-size: cover;
@@ -5,6 +18,7 @@
   height: 192px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  box-shadow: 2px 3px 4px black;
 }
 .Card .bgprofile {
   background-color: #27292f;
@@ -13,6 +27,7 @@
   height: 360px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  box-shadow: 2px 3px 4px black;
 }
 
 .Card .logo {
@@ -255,6 +270,7 @@
   font-weight: bold;
   text-decoration: underline;
   bottom: 40%;
+  
 
 }
 
@@ -264,6 +280,7 @@
   height: 8px;
   border-radius: 16px;
   background-color: #b2d1ff; 
+  
 
 }
 
