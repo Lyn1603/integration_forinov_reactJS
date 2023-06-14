@@ -100,7 +100,112 @@
 }
 
 .Card .bgprofile .contact .map {
+  position: relative;
     width: 10px;
     height: 16px;
+    top: 25px;
+
+}
+
+.Card .bgprofile .contact .adress {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.Card .bgprofile .contact .website {
+  position: relative;
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    left : 30px;
+
+}
+
+.Card .bgprofile .contact .link {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.Card .bgprofile .contact .social {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  width: 16px;
+  height: 16px;
+  top: 26px;
+  left : 30px;
+
+}
+
+
+.Card .bgprofile .text {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 40%;
+  left: 20%;
+  width: 650px;
+  height: 80px;
+
+}
+
+.Card .bgprofile .text .text1 {
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #fff;
+
+}
+
+.Card .bgprofile .button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 35%;
+  left: 20%;
+  width: 650px;
+  height: 80px;
+
+}
+
+.Card .bgprofile .button .button2 {
+
+  position: relative;
+  background-color: #fff;
+  width: 187px;
+  height: 32px;
+  font-size: 16px;
+  border-radius: 5px;
+  bottom: 15%;
+
+}
+
+.Card .bgprofile .button .button3 {
+
+  position: relative;
+  background-color: #fff;
+  width: 67px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 5px;
+  bottom: 15%;
+
+}
+
+.Card .bgprofile .button .button4 {
+
+  position: relative;
+  background-color: #fff;
+  width: 28px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 5px;
+  bottom: 15%;
 
 }
