@@ -15,14 +15,14 @@ function App() {
   return (
     <Fragment>
 
-      <h1 className='title'> Mon integration </h1>
+      <h1 className='title'> Mon integration - BENABDESSADOK Lynda </h1>
+
 
       <div className="Card">
 
         <div className="bgphoto">
           
         </div>
-
 
       <div className="bgprofile">
 
