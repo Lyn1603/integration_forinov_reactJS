@@ -260,10 +260,10 @@
 
 .Card .bgprofile .progressionBar .progression{
   margin-top: 2%;
-  width: 47vw;
+  width: 50%;
   height: 8px;
   border-radius: 16px;
-  background-color: #006dff;
+  background-color: #b2d1ff; 
 
 }
 
@@ -271,9 +271,9 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 14%;
+  gap: 99px;
   align-items: center;
-  bottom: 35%;
+  bottom: 62%;
   
   
 
