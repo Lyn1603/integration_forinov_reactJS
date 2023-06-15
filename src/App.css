@@ -101,7 +101,7 @@ body{
 .Card .bgprofile .about .dots  {
     display: flex;
     flex-direction: row;
-    margin-left: 40vw;
+    margin-left: 30vw;
     margin-top: 15px;
     gap: 4px;
 }
