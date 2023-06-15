@@ -252,7 +252,6 @@ body{
   flex-direction: row;
   justify-content: left;
   justify-content: space-between;
-  width: 12vw;
   align-items: center;
   height: 80px;
   position: relative;
